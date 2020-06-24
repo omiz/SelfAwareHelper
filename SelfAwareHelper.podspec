@@ -13,4 +13,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "SelfAwareHelper/*.{swift,m}"
 
+  spec.swift_versions = [5.1, 5.2]
+
 end
